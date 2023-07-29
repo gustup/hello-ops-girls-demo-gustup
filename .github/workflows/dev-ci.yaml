@@ -2,7 +2,7 @@ name: hello ops girls dev pipeline
 run-name: dev-ci
 on:
   push:
-    branches:["*]
+    branches: ["*"]
 env:
   AWS_ACCOUNT: "494526681395"
   AWS_REGION: "ap-southeast-1"
